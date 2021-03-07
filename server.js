@@ -58,7 +58,6 @@ app.use((error, req, res, next) => {
   } else {
     response = { error };
   }
-
   res.status(500).json(response);
 });
 
